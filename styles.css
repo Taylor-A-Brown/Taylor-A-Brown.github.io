@@ -221,6 +221,8 @@ nav h1 a {
   #projects img {
     grid-column: 1/6;
     grid-row: 1/2;
+    width: 80%;
+    justify-self: center;
   }
   #projects .reverse img {
     grid-column: 6/11;
