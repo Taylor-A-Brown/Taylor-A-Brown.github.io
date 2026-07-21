@@ -203,8 +203,7 @@ nav h1 a {
   padding: 1rem;
   border-top: 1px solid var(--aqua);
   border-left: 1px solid var(--aqua);
-  width: 400px;
-  max-width: 100%;
+  width: 300px;
   height: auto;
 }
 
@@ -221,12 +220,14 @@ nav h1 a {
   #projects img {
     grid-column: 1/6;
     grid-row: 1/2;
-    width: 80%;
+    width: 300px;
     justify-self: center;
   }
   #projects .reverse img {
     grid-column: 6/11;
     grid-row: 1/2;
+    width: 300px;
+    justify-self: center;
   }
   .text {
     grid-row: 1/2;
