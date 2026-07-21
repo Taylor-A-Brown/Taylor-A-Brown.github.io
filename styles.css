@@ -198,13 +198,14 @@ nav h1 a {
 }
 
 #projects img {
-  margin: 2rem 0 4rem 0;
+  margin: 2rem auto 4rem auto;
   border-radius: 25px;
-  padding: 1rem;
+  padding: 0.5rem;
   border-top: 1px solid var(--aqua);
   border-left: 1px solid var(--aqua);
-  width: 300px;
+  width: 250px;
   height: auto;
+  display: block;
 }
 
 @media (min-width: 550px) {
@@ -220,13 +221,13 @@ nav h1 a {
   #projects img {
     grid-column: 1/6;
     grid-row: 1/2;
-    width: 300px;
+    width: 250px;
     justify-self: center;
   }
   #projects .reverse img {
     grid-column: 6/11;
     grid-row: 1/2;
-    width: 300px;
+    width: 250px;
     justify-self: center;
   }
   .text {
