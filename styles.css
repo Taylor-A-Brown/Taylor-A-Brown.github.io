@@ -204,8 +204,31 @@ nav h1 a {
   border-top: 1px solid var(--aqua);
   border-left: 1px solid var(--aqua);
   width: 250px;
+  height: 300px;
+  object-fit: contain;
   height: auto;
   display: block;
+}
+
+.project-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.project-links a {
+  color: var(--aqua);
+  font-family: var(--mono);
+  text-decoration: none;
+}
+
+#projects .reverse .project-links {
+  justify-content: flex-start;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 550px) {
@@ -222,12 +245,16 @@ nav h1 a {
     grid-column: 1/6;
     grid-row: 1/2;
     width: 250px;
+    height: 300px;
+    object-fit: contain;
     justify-self: center;
   }
   #projects .reverse img {
     grid-column: 6/11;
     grid-row: 1/2;
-    width: 250px;
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
     justify-self: center;
   }
   .text {
