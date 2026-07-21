@@ -217,7 +217,8 @@ nav h1 a {
   justify-content: flex-end;
 }
 
-.project-links a {
+.project-links a,
+.project-links a:visited {
   color: var(--aqua);
   font-family: var(--mono);
   text-decoration: none;
